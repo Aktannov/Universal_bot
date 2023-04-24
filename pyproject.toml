@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "univesral-bot"
+version = "0.1.0"
+description = ""
+authors = ["aktai <aktanovakt@gmail.com>"]
+readme = "README.md"
+packages = [{include = "univesral_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiogram = "^2.25.1"
+environs = "^9.5.0"
+requests = "^2.28.2"
+bs4 = "^0.0.1"
+lxml = "^4.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
